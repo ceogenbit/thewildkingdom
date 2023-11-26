@@ -789,6 +789,7 @@ textarea.input {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 3.375rem;
           flex: 0 0 3.375rem;
+  cursor: pointer;
 }
 
 .swiper-button-prev img,
@@ -1194,7 +1195,7 @@ textarea.input {
     position: relative;
     width: 2.1875rem;
     height: 1.4375rem;
-    z-index: 5;
+    z-index: 50;
   }
 
   .icon-menu span,
