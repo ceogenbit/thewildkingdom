@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240106210659">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240107183939">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,10 +18,18 @@
 			<div class="header__container">
 				<nav class="header__nav">
 					<ul class="header__items">
-						<li class="header__item"><a href="#" class="header__link">Home</a></li>
-						<li class="header__item"><a href="#" class="header__link">About</a></li>
-						<li class="header__item"><a href="#" class="header__link">Products</a></li>
-						<li class="header__item"><a href="#" class="header__link">Services</a></li>
+						<li class="header__item">
+							<a data-goto-header data-goto-speed="1000" data-goto=".hero" href="#" class="header__link">Home</a>
+						</li>
+						<li class="header__item">
+							<a data-goto-header data-goto-speed="1000" data-goto=".about" href="#" class="header__link">About</a>
+						</li>
+						<li class="header__item">
+							<a data-goto-header data-goto-speed="1000" data-goto=".products" href="#" class="header__link">Products</a>
+						</li>
+						<li class="header__item">
+							<a data-goto-header data-goto-speed="1000" data-goto=".services" href="#" class="header__link">Services</a>
+						</li>
 					</ul>
 				</nav>
 				<div class="header__logo logo">
@@ -42,10 +50,10 @@
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Products</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+							<li class="menu__item"><a data-goto-header data-goto-speed="1000" data-goto=".hero" href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a data-goto-header data-goto-speed="1000" data-goto=".about" href="#" class="menu__link">About</a></li>
+							<li class="menu__item"><a data-goto-header data-goto-speed="1000" data-goto=".products" href="#" class="menu__link">Products</a></li>
+							<li class="menu__item"><a data-goto-header data-goto-speed="1000" data-goto=".services" href="#" class="menu__link">Services</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -349,6 +357,43 @@
 					</ul>
 				</div>
 			</section>
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__images">
+						<div class="contacts__img-wrap">
+							<picture><source srcset="img/contacts/contacts-01.webp" type="image/webp"><img class="contacts__img" src="img/contacts/contacts-01.jpg" alt="Cat"></picture>
+						</div>
+						<div class="contacts__img-wrap contacts__img-wrap--relative">
+							<picture><source srcset="img/contacts/contacts-02.webp" type="image/webp"><img class="contacts__img" src="img/contacts/contacts-02.jpg" alt="Dog"></picture>
+							<a href="#" class="contacts__btn" target="_blank">
+								<img src="img/contacts/icons/play.svg" alt="Play">
+							</a>
+						</div>
+					</div>
+					<div class="contacts__content">
+						<div class="box-content">
+							<div class="box-content__label">Contact us</div>
+							<h2 class="box-content__title">Come for the care, leave with a smile</h2>
+							<div class="box-content__contact">
+								<img src="img/contacts/icons/clock.svg" alt="Clock">
+								<div class="box-content__info">
+									<div>Monday/Friday 9:00-23:00</div>
+									<div>Saturday 10:00-21:00</div>
+								</div>
+							</div>
+							<div class="box-content__contact">
+								<img src="img/contacts/icons/geo.svg" alt="Geolocation">
+								<div class="box-content__info">
+									<a href="tel:+0123456789">+012-345-6789</a>
+									<a href="mailto:TheWildKingdom@contact.com">TheWildKingdom@contact.com</a>
+									<a href="#">9889 Lorem Ipsum street, Pellentesque, CA, USA</a>
+								</div>
+							</div>
+							<button class="box-content__button button button--background" type="button">Contact</button>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -572,7 +617,7 @@
 			preloader();
 		</script>
 	</div>
-	<script src="js/app.min.js?_v=20240106210659"></script>
+	<script src="js/app.min.js?_v=20240107183939"></script>
 </body>
 
 </html>
