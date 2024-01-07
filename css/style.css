@@ -1753,6 +1753,10 @@ textarea.input {
     padding-top: 3.5625rem;
   }
 
+  .contacts {
+    padding-bottom: 3.5625rem;
+  }
+
   .contacts .box-content__contact {
     font-size: 1.25rem;
   }
@@ -1995,6 +1999,10 @@ textarea.input {
 
   .contacts {
     padding-top: 0.9375rem;
+  }
+
+  .contacts {
+    padding-bottom: 0.9375rem;
   }
 
   .contacts .box-content__contact {
@@ -2948,6 +2956,18 @@ textarea.input {
 @supports not (padding-top: clamp( 0.9375rem , 0.282273791rem  +  3.2761310452vw , 3.5625rem )) {
     .contacts {
       padding-top: calc(0.9375rem + 2.625 * (100vw - 20rem) / 80.125);
+    }
+}
+
+@supports (padding-bottom: clamp( 0.9375rem , 0.282273791rem  +  3.2761310452vw , 3.5625rem )) {
+    .contacts {
+      padding-bottom: clamp( 0.9375rem , 0.282273791rem  +  3.2761310452vw , 3.5625rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 0.9375rem , 0.282273791rem  +  3.2761310452vw , 3.5625rem )) {
+    .contacts {
+      padding-bottom: calc(0.9375rem + 2.625 * (100vw - 20rem) / 80.125);
     }
 }
 
