@@ -69,6 +69,7 @@
             if (window.FLS) console.log(message);
         }), 0);
     }
+    
     let gotoblock_gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) => {
         const targetBlockElement = document.querySelector(targetBlock);
         if (targetBlockElement) {
