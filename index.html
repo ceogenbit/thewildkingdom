@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240107232956">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240115105230">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,28 +63,28 @@
 			<section class="hero">
 				<picture><source srcset="img/hero/background.webp" type="image/webp"><img class="hero__background" src="img/hero/background.jpg" alt="Background Hero"></picture>
 				<div class="hero__container">
-					<div class="hero__text-box">
+					<div class="hero__text-box" data-watch-threshold="0.1" data-watch-once data-watch>
 						<h1 class="hero__title title">A better world for pets</h1>
 						<button class="hero__button button button--border" type="button">Explore</button>
 					</div>
 					<div class="hero__swiper swiper">
 						<div class="swiper-wrapper">
-							<div class="swiper-slide">
+							<div data-swiper-autoplay="3000" class="swiper-slide">
 								<div data-swiper-parallax-scale="0.24" class="swiper-slide__body">
 									<picture><source srcset="img/hero/slider-01.webp" type="image/webp"><img src="img/hero/slider-01.jpg" alt="Dog"></picture>
 								</div>
 							</div>
-							<div class="swiper-slide">
+							<div data-swiper-autoplay="2500" class="swiper-slide">
 								<div data-swiper-parallax-scale="0.24" class="swiper-slide__body">
 									<picture><source srcset="img/hero/slider-02.webp" type="image/webp"><img src="img/hero/slider-02.jpg" alt="Cat"></picture>
 								</div>
 							</div>
-							<div class="swiper-slide">
+							<div data-swiper-autoplay="2500" class="swiper-slide">
 								<div data-swiper-parallax-scale="0.24" class="swiper-slide__body">
 									<picture><source srcset="img/hero/slider-03.webp" type="image/webp"><img src="img/hero/slider-03.jpg" alt="Dog"></picture>
 								</div>
 							</div>
-							<div class="swiper-slide">
+							<div data-swiper-autoplay="2500" class="swiper-slide">
 								<div data-swiper-parallax-scale="0.24" class="swiper-slide__body">
 									<picture><source srcset="img/hero/slider-04.webp" type="image/webp"><img src="img/hero/slider-04.jpg" alt="Cat"></picture>
 								</div>
@@ -104,11 +104,11 @@
 			<section class="about">
 				<div class="about__container">
 					<div class="about__inner">
-						<div class="about__image">
+						<div class="about__image" data-watch-threshold="0.2" data-watch-once data-watch>
 							<picture><source srcset="img/about/dog-about.webp" type="image/webp"><img src="img/about/dog-about.jpg" alt="Dog"></picture>
 						</div>
 						<div class="about__content-box-inner">
-							<div class="about__content-box box-content">
+							<div class="about__content-box box-content" data-watch-threshold="0.2" data-watch-once data-watch>
 								<div class="box-content__label label">About us</div>
 								<h2 class="box-content__title title">Treating pet like Royalty</h2>
 								<blockquote class="box-content__quote quote">“They’re not just pets, they’re family”</blockquote>
@@ -121,7 +121,7 @@
 							</div>
 						</div>
 					</div>
-					<ul class="about__items">
+					<ul class="about__items" data-watch-threshold="0.5" data-watch-once data-watch>
 						<li class="about__item">
 							<div class="about__item-img">
 								<img src="img/about/icons/food.svg" alt="Food">
@@ -145,7 +145,7 @@
 			</section>
 			<section class="products">
 				<div class="products__container">
-					<div class="products__content-box box-content box-content--center">
+					<div class="products__content-box box-content box-content--center" data-watch-threshold="0.2" data-watch-once data-watch>
 						<div class="box-content__label label">Our Products</div>
 						<h2 class="box-content__title title">For all your pet needs</h2>
 						<div class="box-content__text text">
@@ -155,7 +155,7 @@
 						</div>
 					</div>
 					<div class="products__items items-products">
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-01.webp" type="image/webp"><img src="img/products/products-01.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -172,7 +172,7 @@
 								<img class="rating__img" src="img/products/star-border.svg" alt="Star">
 							</div>
 						</article>
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-02.webp" type="image/webp"><img src="img/products/products-02.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -189,7 +189,7 @@
 								<img class="rating__img" src="img/products/star-border.svg" alt="Star">
 							</div>
 						</article>
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-03.webp" type="image/webp"><img src="img/products/products-03.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -206,7 +206,7 @@
 								<img class="rating__img" src="img/products/star-border.svg" alt="Star">
 							</div>
 						</article>
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-04.webp" type="image/webp"><img src="img/products/products-04.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -223,7 +223,7 @@
 								<img class="rating__img" src="img/products/star-border.svg" alt="Star">
 							</div>
 						</article>
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-05.webp" type="image/webp"><img src="img/products/products-05.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -240,7 +240,7 @@
 								<img class="rating__img" src="img/products/star-border.svg" alt="Star">
 							</div>
 						</article>
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-06.webp" type="image/webp"><img src="img/products/products-06.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -257,7 +257,7 @@
 								<img class="rating__img" src="img/products/star-border.svg" alt="Star">
 							</div>
 						</article>
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-07.webp" type="image/webp"><img src="img/products/products-07.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -274,7 +274,7 @@
 								<img class="rating__img" src="img/products/star-border.svg" alt="Star">
 							</div>
 						</article>
-						<article class="items-products__item products-item">
+						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-08.webp" type="image/webp"><img src="img/products/products-08.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -394,6 +394,35 @@
 					</div>
 				</div>
 			</section>
+			<!-- <section class="opinion">
+					<div class="opinion__container">
+						<div class="opinion__slider swiper-opinion">
+							<div class="opinion__wrapper swiper-opinion-wrapper">
+								<div class="opinion__slide swiper-opinion-slide">
+									<img class="swiper-opinion-slide__icon" src="img/opinion/icon.svg" alt="Icon">
+									<blockquote class="swiper-opinion-slide__text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.
+									</blockquote>
+									<cite>Etiam vulputate</cite>
+								</div>
+								<div class="opinion__slide swiper-opinion-slide">
+									<img class="swiper-opinion-slide__icon" src="img/opinion/icon.svg" alt="Icon">
+									<blockquote class="swiper-opinion-slide__text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.
+									</blockquote>
+									<cite>Etiam vulputate</cite>
+								</div>
+								<div class="opinion__slide swiper-opinion-slide">
+									<img class="swiper-opinion-slide__icon" src="img/opinion/icon.svg" alt="Icon">
+									<blockquote class="swiper-opinion-slide__text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.
+									</blockquote>
+									<cite>Etiam vulputate</cite>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> -->
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -617,7 +646,7 @@
 			preloader();
 		</script>
 	</div>
-	<script src="js/app.min.js?_v=20240107232956"></script>
+	<script src="js/app.min.js?_v=20240115105230"></script>
 </body>
 
 </html>
