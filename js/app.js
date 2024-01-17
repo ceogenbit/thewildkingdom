@@ -3948,6 +3948,24 @@
                     on: {}
                 });
             }
+            if (document.querySelector(".opinion__slider")) {
+                new swiper_core_Swiper(".opinion__slider", {
+                    modules: [ Navigation ],
+                    observer: true,
+                    observeParents: true,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    autoHeight: true,
+                    autoplay: true,
+                    speed: 800,
+                    navigation: {
+                        prevEl: ".swiper-button-prev",
+                        nextEl: ".swiper-button-next"
+                    },
+                    breakpoints: {},
+                    on: {}
+                });
+            }
         }
         window.addEventListener("load", (function(e) {
             initSliders();

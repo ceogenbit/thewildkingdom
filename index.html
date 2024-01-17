@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240115105230">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118002403">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -104,11 +104,11 @@
 			<section class="about">
 				<div class="about__container">
 					<div class="about__inner">
-						<div class="about__image" data-watch-threshold="0.2" data-watch-once data-watch>
+						<div class="about__image" data-watch-threshold="0.25" data-watch-once data-watch>
 							<picture><source srcset="img/about/dog-about.webp" type="image/webp"><img src="img/about/dog-about.jpg" alt="Dog"></picture>
 						</div>
 						<div class="about__content-box-inner">
-							<div class="about__content-box box-content" data-watch-threshold="0.2" data-watch-once data-watch>
+							<div class="about__content-box box-content" data-watch-threshold="0.25" data-watch-once data-watch>
 								<div class="box-content__label label">About us</div>
 								<h2 class="box-content__title title">Treating pet like Royalty</h2>
 								<blockquote class="box-content__quote quote">“They’re not just pets, they’re family”</blockquote>
@@ -145,7 +145,7 @@
 			</section>
 			<section class="products">
 				<div class="products__container">
-					<div class="products__content-box box-content box-content--center" data-watch-threshold="0.2" data-watch-once data-watch>
+					<div class="products__content-box box-content box-content--center" data-watch-threshold="0.25" data-watch-once data-watch>
 						<div class="box-content__label label">Our Products</div>
 						<h2 class="box-content__title title">For all your pet needs</h2>
 						<div class="box-content__text text">
@@ -155,7 +155,7 @@
 						</div>
 					</div>
 					<div class="products__items items-products">
-						<article class="items-products__item products-item" data-watch-threshold="0.2" data-watch-once data-watch>
+						<article class="items-products__item products-item" data-watch-threshold="0.25" data-watch-once data-watch>
 							<div class="products-item__img">
 								<picture><source srcset="img/products/products-01.webp" type="image/webp"><img src="img/products/products-01.png" alt="Product"></picture>
 								<button class="products-item__button button button--background">Add to cart</button>
@@ -297,11 +297,11 @@
 			</section>
 			<section class="services">
 				<div class="services__container">
-					<div class="services__img-wrap">
+					<div class="services__img-wrap" data-watch-threshold="0.25" data-watch-once data-watch>
 						<picture><source srcset="img/services/cat.webp" type="image/webp"><img src="img/services/cat.jpg" alt="Cat"></picture>
 					</div>
 					<div class="services__inner">
-						<div class="services__content-box box-content">
+						<div class="services__content-box box-content" data-watch-threshold="0.25" data-watch-once data-watch>
 							<div class="box-content__label label">our services</div>
 							<h2 class="box-content__title title">Quality Things for Loving Pets</h2>
 							<blockquote class="box-content__quote quote">“More than a Pet Store…”</blockquote>
@@ -318,7 +318,7 @@
 			<section class="conditions">
 				<div class="conditions__container">
 					<ul class="conditions__items">
-						<li class="conditions__item">
+						<li class="conditions__item" data-watch-threshold="0.25" data-watch-once data-watch>
 							<a href="#" class="conditions__img-link">
 								<picture><source srcset="img/conditions/conditions-01.webp" type="image/webp"><img src="img/conditions/conditions-01.jpg" alt="Dog"></picture>
 							</a>
@@ -327,7 +327,7 @@
 								<img src="img/conditions/arrow.svg" alt="Arrow">
 							</a>
 						</li>
-						<li class="conditions__item">
+						<li class="conditions__item" data-watch-threshold="0.25" data-watch-once data-watch>
 							<a href="#" class="conditions__img-link">
 								<picture><source srcset="img/conditions/conditions-02.webp" type="image/webp"><img src="img/conditions/conditions-02.jpg" alt="Dog"></picture>
 							</a>
@@ -336,7 +336,7 @@
 								<img src="img/conditions/arrow.svg" alt="Arrow">
 							</a>
 						</li>
-						<li class="conditions__item">
+						<li class="conditions__item" data-watch-threshold="0.25" data-watch-once data-watch>
 							<a href="#" class="conditions__img-link">
 								<picture><source srcset="img/conditions/conditions-03.webp" type="image/webp"><img src="img/conditions/conditions-03.jpg" alt="Dog"></picture>
 							</a>
@@ -345,7 +345,7 @@
 								<img src="img/conditions/arrow.svg" alt="Arrow">
 							</a>
 						</li>
-						<li class="conditions__item">
+						<li class="conditions__item" data-watch-threshold="0.25" data-watch-once data-watch>
 							<a href="#" class="conditions__img-link">
 								<picture><source srcset="img/conditions/conditions-04.webp" type="image/webp"><img src="img/conditions/conditions-04.jpg" alt="Cat"></picture>
 							</a>
@@ -394,35 +394,47 @@
 					</div>
 				</div>
 			</section>
-			<!-- <section class="opinion">
-					<div class="opinion__container">
-						<div class="opinion__slider swiper-opinion">
-							<div class="opinion__wrapper swiper-opinion-wrapper">
-								<div class="opinion__slide swiper-opinion-slide">
-									<img class="swiper-opinion-slide__icon" src="img/opinion/icon.svg" alt="Icon">
-									<blockquote class="swiper-opinion-slide__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.
-									</blockquote>
-									<cite>Etiam vulputate</cite>
+			<section class="opinion">
+				<div class="opinion__container opinion__container--position">
+					<div class="opinion__slider opinion__slider--position swiper-opinion">
+						<div class="opinion__wrapper opinion__wrapper--position swiper-wrapper">
+							<div class="opinion__slide swiper-slide">
+								<div class="opinion__img-wrap">
+									<img src="img/opinion/icon.svg" alt="Icon">
 								</div>
-								<div class="opinion__slide swiper-opinion-slide">
-									<img class="swiper-opinion-slide__icon" src="img/opinion/icon.svg" alt="Icon">
-									<blockquote class="swiper-opinion-slide__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.
-									</blockquote>
+								<blockquote>
+									<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.</div>
 									<cite>Etiam vulputate</cite>
+								</blockquote>
+							</div>
+							<div class="opinion__slide swiper-slide">
+								<div class="opinion__img-wrap">
+									<img src="img/opinion/icon.svg" alt="Icon">
 								</div>
-								<div class="opinion__slide swiper-opinion-slide">
-									<img class="swiper-opinion-slide__icon" src="img/opinion/icon.svg" alt="Icon">
-									<blockquote class="swiper-opinion-slide__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.
-									</blockquote>
+								<blockquote>
+									<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.</div>
 									<cite>Etiam vulputate</cite>
+								</blockquote>
+							</div>
+							<div class="opinion__slide swiper-slide">
+								<div class="opinion__img-wrap">
+									<img src="img/opinion/icon.svg" alt="Icon">
 								</div>
+								<blockquote>
+									<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate pharetra ante id congue. Cras feugiat, diam a placerat posuere, arcu risus porta elit, sed finibus magna lorem ut turpis.</div>
+									<cite>Etiam vulputate</cite>
+								</blockquote>
 							</div>
 						</div>
 					</div>
-				</section> -->
+					<button class="swiper-button-prev swiper-button-prev--position">
+						<img src="img/slider-arrow.svg" alt="Arrow">
+					</button>
+					<button class="swiper-button-next swiper-button-next--position">
+						<img src="img/slider-arrow.svg" alt="Arrow">
+					</button>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -646,7 +658,7 @@
 			preloader();
 		</script>
 	</div>
-	<script src="js/app.min.js?_v=20240115105230"></script>
+	<script src="js/app.min.js?_v=20240118002403"></script>
 </body>
 
 </html>
