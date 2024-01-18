@@ -829,15 +829,15 @@ textarea.input {
           justify-content: center;
 }
 
-._header-scroll {
+.loaded ._header-scroll {
   background-color: rgba(26, 26, 26, 0.9058823529);
 }
 
-._header-scroll .header__container {
+.loaded ._header-scroll .header__container {
   min-height: 3.75rem;
 }
 
-._header-scroll .header__logo {
+.loaded ._header-scroll .header__logo {
   -webkit-transform: scale(0.68);
       -ms-transform: scale(0.68);
           transform: scale(0.68);
@@ -2803,7 +2803,7 @@ textarea.input {
             column-gap: 0.9375rem;
   }
 
-  ._header-scroll .header__logo {
+  .loaded ._header-scroll .header__logo {
     -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
             transform: scale(0.9);
