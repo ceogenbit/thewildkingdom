@@ -1208,7 +1208,6 @@ textarea.input {
           flex: 1 1 45%;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  aspect-ratio: 858/554;
   padding: 0.9375rem;
   outline: 0.0625rem solid var(--border);
   opacity: 0;
@@ -1219,6 +1218,7 @@ textarea.input {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  aspect-ratio: 858/554;
 }
 
 .about__image._watcher-view {
@@ -1471,7 +1471,6 @@ textarea.input {
 }
 
 .services__img-wrap {
-  aspect-ratio: 786/725;
   padding: 0.9375rem;
   outline: 0.0625rem solid white;
   -ms-flex-item-align: start;
@@ -1489,6 +1488,7 @@ textarea.input {
      object-fit: cover;
   -webkit-box-shadow: 0.625rem 0.625rem 0.625rem 0rem rgba(45, 45, 45, 0.35);
           box-shadow: 0.625rem 0.625rem 0.625rem 0rem rgba(45, 45, 45, 0.35);
+  aspect-ratio: 786/725;
 }
 
 .services__img-wrap._watcher-view {
