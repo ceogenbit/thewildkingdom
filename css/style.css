@@ -1029,6 +1029,7 @@ textarea.input {
 }
 
 .hero {
+  min-height: 100svh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1102,7 +1103,10 @@ textarea.input {
   width: 70svh;
   max-width: 100%;
   min-width: 18.125rem;
-  aspect-ratio: 1/1;
+  border: 1.25rem solid transparent;
+  outline: 0.0625rem solid var(--bg-secondary);
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .hero .swiper-slide__body img {
@@ -1110,8 +1114,8 @@ textarea.input {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 50%;
-  border: 0.0625rem solid var(--bg-secondary);
+  aspect-ratio: 1/1;
+  background: linear-gradient(321deg, rgb(25, 15, 8) 28%, rgb(34, 34, 32) 91%);
 }
 
 .hero .swiper-controll {
@@ -2174,10 +2178,6 @@ textarea.input {
     font-size: 6.25rem;
   }
 
-  .hero .swiper-slide__body img {
-    padding: 1.5rem;
-  }
-
   .hero .swiper-controll {
     padding-top: 1.875rem;
   }
@@ -2444,10 +2444,6 @@ textarea.input {
 
   .hero__title {
     font-size: 2.8125rem;
-  }
-
-  .hero .swiper-slide__body img {
-    padding: 0.625rem;
   }
 
   .hero .swiper-controll {
@@ -3232,18 +3228,6 @@ textarea.input {
     }
 }
 
-@supports (padding: clamp( 0.625rem , 0.4065912637rem  +  1.0920436817vw , 1.5rem )) {
-    .hero .swiper-slide__body img {
-      padding: clamp( 0.625rem , 0.4065912637rem  +  1.0920436817vw , 1.5rem );
-    }
-}
-
-@supports not (padding: clamp( 0.625rem , 0.4065912637rem  +  1.0920436817vw , 1.5rem )) {
-    .hero .swiper-slide__body img {
-      padding: calc(0.625rem + 0.875 * (100vw - 20rem) / 80.125);
-    }
-}
-
 @supports (padding-top: clamp( 0.9375rem , 0.7034906396rem  +  1.1700468019vw , 1.875rem )) {
     .hero .swiper-controll {
       padding-top: clamp( 0.9375rem , 0.7034906396rem  +  1.1700468019vw , 1.875rem );
@@ -3834,10 +3818,6 @@ textarea.input {
     fill: var(--bg-primary);
   }
 
-  .hero {
-    min-height: 100vh;
-  }
-
   .products-item__img:hover .products-item__button {
     opacity: 1;
     visibility: visible;
@@ -3878,10 +3858,6 @@ textarea.input {
 }
 
 @media (any-hover: none) {
-  .hero {
-    min-height: 100svh;
-  }
-
   .products-item__img img {
     padding-bottom: 2.8125rem;
   }
