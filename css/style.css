@@ -1088,10 +1088,6 @@ textarea.input {
   opacity: 1;
 }
 
-.hero {
-  min-height: 100svh;
-}
-
 .hero .swiper {
   margin-left: -35%;
 }
@@ -3838,6 +3834,10 @@ textarea.input {
     fill: var(--bg-primary);
   }
 
+  .hero {
+    min-height: 100vh;
+  }
+
   .products-item__img:hover .products-item__button {
     opacity: 1;
     visibility: visible;
@@ -3878,6 +3878,10 @@ textarea.input {
 }
 
 @media (any-hover: none) {
+  .hero {
+    min-height: 100svh;
+  }
+
   .products-item__img img {
     padding-bottom: 2.8125rem;
   }
