@@ -2459,11 +2459,11 @@ textarea.input {
   }
 
   .about__container {
-    padding-bottom: 1.875rem;
+    padding-bottom: 1.5625rem;
   }
 
   .about__container {
-    row-gap: 1.25rem;
+    row-gap: 2.1875rem;
   }
 
   .about__inner {
@@ -3264,27 +3264,27 @@ textarea.input {
     }
 }
 
-@supports (padding-bottom: clamp( 1.875rem , 1.4069812793rem  +  2.3400936037vw , 3.75rem )) {
+@supports (padding-bottom: clamp( 1.5625rem , 1.0164781591rem  +  2.7301092044vw , 3.75rem )) {
     .about__container {
-      padding-bottom: clamp( 1.875rem , 1.4069812793rem  +  2.3400936037vw , 3.75rem );
+      padding-bottom: clamp( 1.5625rem , 1.0164781591rem  +  2.7301092044vw , 3.75rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , 1.4069812793rem  +  2.3400936037vw , 3.75rem )) {
+@supports not (padding-bottom: clamp( 1.5625rem , 1.0164781591rem  +  2.7301092044vw , 3.75rem )) {
     .about__container {
-      padding-bottom: calc(1.875rem + 1.875 * (100vw - 20rem) / 80.125);
+      padding-bottom: calc(1.5625rem + 2.1875 * (100vw - 20rem) / 80.125);
     }
 }
 
-@supports (row-gap: clamp( 1.25rem , 0.4699687988rem  +  3.9001560062vw , 4.375rem )) {
+@supports (row-gap: clamp( 2.1875rem , 1.6414781591rem  +  2.7301092044vw , 4.375rem )) {
     .about__container {
-      row-gap: clamp( 1.25rem , 0.4699687988rem  +  3.9001560062vw , 4.375rem );
+      row-gap: clamp( 2.1875rem , 1.6414781591rem  +  2.7301092044vw , 4.375rem );
     }
 }
 
-@supports not (row-gap: clamp( 1.25rem , 0.4699687988rem  +  3.9001560062vw , 4.375rem )) {
+@supports not (row-gap: clamp( 2.1875rem , 1.6414781591rem  +  2.7301092044vw , 4.375rem )) {
     .about__container {
-      row-gap: calc(1.25rem + 3.125 * (100vw - 20rem) / 80.125);
+      row-gap: calc(2.1875rem + 2.1875 * (100vw - 20rem) / 80.125);
     }
 }
 
