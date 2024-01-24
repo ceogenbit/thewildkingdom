@@ -1103,8 +1103,7 @@ textarea.input {
   width: 70svh;
   max-width: 100%;
   min-width: 18.125rem;
-  border: 1.25rem solid transparent;
-  outline: 0.0625rem solid var(--bg-secondary);
+  border: 0.0625rem solid var(--bg-secondary);
   border-radius: 50%;
   overflow: hidden;
 }
@@ -1116,6 +1115,11 @@ textarea.input {
      object-fit: cover;
   aspect-ratio: 1/1;
   background: linear-gradient(321deg, rgb(25, 15, 8) 28%, rgb(34, 34, 32) 91%);
+}
+
+.hero .swiper-slide__inner {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .hero .swiper-controll {
@@ -1180,7 +1184,7 @@ textarea.input {
 }
 
 .swiper-button-disabled {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .about__container {
@@ -2178,6 +2182,10 @@ textarea.input {
     font-size: 6.25rem;
   }
 
+  .hero .swiper-slide__body {
+    padding: 1.25rem;
+  }
+
   .hero .swiper-controll {
     padding-top: 1.875rem;
   }
@@ -2444,6 +2452,10 @@ textarea.input {
 
   .hero__title {
     font-size: 2.8125rem;
+  }
+
+  .hero .swiper-slide__body {
+    padding: 0.625rem;
   }
 
   .hero .swiper-controll {
@@ -3225,6 +3237,18 @@ textarea.input {
 @supports not (font-size: clamp( 2.8125rem , 1.9544656786rem  +  4.2901716069vw , 6.25rem )) {
     .hero__title {
       font-size: calc(2.8125rem + 3.4375 * (100vw - 20rem) / 80.125);
+    }
+}
+
+@supports (padding: clamp( 0.625rem , 0.4689937598rem  +  0.7800312012vw , 1.25rem )) {
+    .hero .swiper-slide__body {
+      padding: clamp( 0.625rem , 0.4689937598rem  +  0.7800312012vw , 1.25rem );
+    }
+}
+
+@supports not (padding: clamp( 0.625rem , 0.4689937598rem  +  0.7800312012vw , 1.25rem )) {
+    .hero .swiper-slide__body {
+      padding: calc(0.625rem + 0.625 * (100vw - 20rem) / 80.125);
     }
 }
 
