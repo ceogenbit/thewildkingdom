@@ -3938,8 +3938,11 @@
                     spaceBetween: 0,
                     autoHeight: false,
                     autoplay: true,
-                    speed: 1e3,
+                    speed: 900,
                     parallax: true,
+                    autoplay: {
+                        disableOnInteraction: true
+                    },
                     navigation: {
                         prevEl: ".swiper-button-prev",
                         nextEl: ".swiper-button-next"
@@ -3956,7 +3959,6 @@
                     slidesPerView: 1,
                     spaceBetween: 20,
                     autoHeight: true,
-                    autoplay: true,
                     speed: 800,
                     navigation: {
                         prevEl: ".swiper-button-prev",
